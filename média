@@ -1,0 +1,29 @@
+programa {
+ 	inclua biblioteca Matematica --> mat
+ 
+  funcao inicio() {
+      real idad_1, idad_2, idad_3, idad_4, idad_5, media
+
+  escreva("Digite a primeira idade: ")
+  leia(idad_1)
+
+  escreva("Digite a segunda idade: ")
+  leia(idad_2)
+
+  escreva("Digite a terceira idade: ")
+  leia(idad_3)
+
+  escreva("Digite a quarta idade: ")
+  leia(idad_4)
+
+  escreva("Digite a quinta idade: ")
+  leia(idad_5)
+
+media = (idad_1 + idad_2 + idad_3 + idad_4 + idad_5) / 5
+
+escreva ("A média final é: ", mat.arredondar(media, 2), "\n\n")
+
+
+
+  }
+}
